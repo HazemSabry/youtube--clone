@@ -6,7 +6,7 @@ import {
   VideoDetail,
   ChannelDetail,
   SearchFeed,
-} from "./components/Navbar";
+} from "./components";
 
 function App() {
   return (
