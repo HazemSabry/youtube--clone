@@ -1,19 +1,22 @@
 import { useState, useEffect } from "react";
-import { Box, Stack, Typography } from "@mui/material";
+import { Box, Stack } from "@mui/material";
+import Sidebar from "./Sidebar";
 
 const Feed = () => {
   return (
-    <Stack sx={{ flexDirection: { sx: "column", md: "row" } }}>
+    <Stack
+      sx={{
+        flexDirection: { sx: "column", md: "row" },
+        backgroundColor: "#0F0F0F",
+      }}
+    >
       <Box
         sx={{
           height: { sx: "auto", md: "92vh" },
-          borderRight: "1px solid #3d3d3d",
-          px: { sx: 0, md: 2 },
+          maxWidth: "18%",
         }}
       >
-        <Typography color="#fff" className="copyright" variant="body2">
-          &copy;Copyright 2023 to Hazem Sabry
-        </Typography>
+        <Sidebar />
       </Box>
     </Stack>
   );
