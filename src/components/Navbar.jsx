@@ -30,7 +30,7 @@ const Navbar = () => {
           <MenuIcon fontSize="inherit" />
         </IconButton>
         <Link to="/" style={{ display: "flex", alignItems: "center" }}>
-          <img src={logo} alt="logo" height={25} />
+          <img src={logo} alt="logo" height={22} />
         </Link>
       </Box>
       <SearchBar />

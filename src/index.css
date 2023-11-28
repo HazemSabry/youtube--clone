@@ -48,13 +48,14 @@ a {
   font-size: medium;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  border: 1px solid #222222;
+  border: 1px solid #3b3b3b;
   background-color: "transparent";
   padding: 10px 0 10px 20px;
   box-shadow: none;
 }
 .search-bar:focus {
   border-color: rgb(0, 102, 255);
+  padding-left: 3rem;
 }
 
 .category-btn {
