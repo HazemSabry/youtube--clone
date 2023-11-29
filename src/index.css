@@ -98,6 +98,7 @@ a {
 .sign-in-btn img,
 .setting-menu-vertical-btn {
   height: 1.6rem;
+  cursor: pointer;
 }
 
 .sign-in-btn:hover {

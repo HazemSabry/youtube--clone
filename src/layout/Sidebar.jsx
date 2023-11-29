@@ -8,8 +8,8 @@ import {
   categories5,
   categories6,
 } from "../utils/SideBarCategories";
-import Category from "./Category";
-import SignInButton from "./SignInButton";
+import Category from "../components/Category";
+import SignInButton from "../components/SignInButton";
 
 const Sidebar = () => {
   const [selectedCategory, setSelectedCategory] = useState("Home");
@@ -20,7 +20,6 @@ const Sidebar = () => {
         overflowY: "auto",
         height: { sx: "auto", md: "95%" },
         p: "0.5rem 0",
-        backgroundColor: "#0F0F0F",
       }}
     >
       <Category

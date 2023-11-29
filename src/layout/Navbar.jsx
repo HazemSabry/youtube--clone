@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import { logo } from "../utils/constants";
 import { Stack, Box, IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import SearchBar from "./SearchBar";
-import SignInButton from "./SignInButton";
+import SearchBar from "../components/SearchBar";
+import SignInButton from "../components/SignInButton";
 import SettingMenuVertical from "../assets/setting-menu-vertical.png";
 
 const Navbar = () => {

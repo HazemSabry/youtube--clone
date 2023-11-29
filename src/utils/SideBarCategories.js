@@ -30,16 +30,19 @@ import SendFeedbackIcon from "../assets/send-feedback-icon.png";
 export const categories1 = [
   {
     name: "Home",
+    link: "/",
     icon: HomeOutLineIcon,
     iconTarget: HomeFillIcon,
   },
   {
     name: "Shorts",
+    link: "/Shorts/:id",
     icon: YoutubeShortsOutLineIcon,
     iconTarget: YoutubeShortsFillIcon,
   },
   {
     name: "Subscriptions",
+    link: "/feed/subscriptions",
     icon: SubscriptionsOutlinedIcon,
     iconTarget: SubscriptionsFillIcon,
   },
@@ -48,11 +51,13 @@ export const categories1 = [
 export const categories2 = [
   {
     name: "You",
+    link: "/feed/you",
     icon: VideoGalleryOutLineIcon,
     iconTarget: VideoGalleryFillIcon,
   },
   {
     name: "History",
+    link: "/feed/history",
     icon: HistoryOutLineIcon,
     iconTarget: HistoryFillIcon,
   },
@@ -61,26 +66,31 @@ export const categories2 = [
 export const categories3 = [
   {
     name: "Trending",
+    link: "/feed/trending",
     icon: TrendingOutLineIcon,
     iconTarget: TrendingFillIcon,
   },
   {
     name: "Music",
+    link: "/music",
     icon: MusicOutLineIcon,
     iconTarget: MusicFillIcon,
   },
   {
     name: "Live",
+    link: "/live",
     icon: LiveOutLineIcon,
     iconTarget: LiveFillIcon,
   },
   {
     name: "Gaming",
+    link: "/gaming",
     icon: GamingOutlineIcon,
     iconTarget: GamingFillIcon,
   },
   {
     name: "Sports",
+    link: "/sports",
     icon: SportsOutlineIcon,
     iconTarget: SportsFillIcon,
   },
@@ -89,6 +99,7 @@ export const categories3 = [
 export const categories4 = [
   {
     name: "Browse channels",
+    link: "/feed/guide_builder",
     icon: Pulse,
     iconTarget: Pulse,
   },
@@ -97,16 +108,19 @@ export const categories4 = [
 export const categories5 = [
   {
     name: "YouTube Premium",
+    link: "/premium",
     icon: YouTubeLogo,
     iconTarget: YouTubeLogo,
   },
   {
     name: "YouTube Music",
+    link: "/youtubemusic",
     icon: YouTubeMusicIcon,
     iconTarget: YouTubeMusicIcon,
   },
   {
     name: "YouTube Kids",
+    link: "/youtubekids",
     icon: YouTubeKidsIcon,
     iconTarget: YouTubeKidsIcon,
   },
@@ -115,21 +129,25 @@ export const categories5 = [
 export const categories6 = [
   {
     name: "Settings",
+    link: "/settings",
     icon: SettingsIcon,
     iconTarget: SettingsIcon,
   },
   {
     name: "Report History",
+    link: "/reporthistory",
     icon: FlagReportHistoryIcon,
     iconTarget: FlagReportHistoryIcon,
   },
   {
     name: "Help",
+    link: "/",
     icon: HelpIcon,
     iconTarget: HelpIcon,
   },
   {
     name: "Send feedback",
+    link: "/",
     icon: SendFeedbackIcon,
     iconTarget: SendFeedbackIcon,
   },

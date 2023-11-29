@@ -1,7 +1,7 @@
 import React from "react";
 
 const SearchFeed = () => {
-  return <div></div>;
+  return <>SearchFeed</>;
 };
 
 export default SearchFeed;
