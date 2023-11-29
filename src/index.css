@@ -32,7 +32,6 @@ a {
 }
 
 .search-bar {
-  border: none;
   outline: none;
   background-color: transparent;
   color: #ffffff;
@@ -41,12 +40,12 @@ a {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   border: 1px solid #3b3b3b;
-  background-color: "transparent";
+  background-color: transparent;
   padding: 10px 0 10px 20px;
   box-shadow: none;
 }
 .search-bar:focus {
-  border-color: rgb(0, 102, 255);
+  border-color: #368dd7;
   padding-left: 3rem;
 }
 
@@ -74,6 +73,35 @@ a {
 }
 
 .category-btn:hover span {
+}
+
+.sign-in-btn {
+  color: #368dd7;
+  width: 6.8rem;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  font-weight: 600;
+  font-size: small;
+  text-transform: capitalize;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: 1px solid #3b3b3b;
+  padding: 0.5rem;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  margin-bottom: 0.5rem;
+  margin-left: 1.5rem;
+}
+
+.sign-in-btn img,
+.setting-menu-vertical-btn {
+  height: 1.6rem;
+}
+
+.sign-in-btn:hover {
+  background-color: hsla(206, 91%, 43%, 0.544);
 }
 
 @media screen and (max-width: 900px) {

@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { Box, Stack } from "@mui/material";
-import Sidebar from "./Sidebar";
+import Sidebar from "../components/Sidebar";
 
-const Feed = () => {
+const Home = () => {
   return (
     <Stack
       sx={{
@@ -22,4 +22,4 @@ const Feed = () => {
   );
 };
 
-export default Feed;
+export default Home;

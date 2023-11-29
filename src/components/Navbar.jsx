@@ -1,11 +1,10 @@
-import React from "react";
-import { Stack } from "@mui/material";
 import { Link } from "react-router-dom";
-
 import { logo } from "../utils/constants";
-import { Box, IconButton } from "@mui/material";
+import { Stack, Box, IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchBar from "./SearchBar";
+import SignInButton from "./SignInButton";
+import SettingMenuVertical from "../assets/setting-menu-vertical.png";
 
 const Navbar = () => {
   return (
@@ -34,6 +33,14 @@ const Navbar = () => {
         </Link>
       </Box>
       <SearchBar />
+      <Box sx={{ display: "flex", alignItems: "center" }}>
+        <img
+          className="setting-menu-vertical-btn"
+          src={SettingMenuVertical}
+          alt="setting"
+        />
+        <SignInButton />
+      </Box>
     </Stack>
   );
 };
