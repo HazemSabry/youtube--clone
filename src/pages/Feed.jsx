@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { Box } from "@mui/material";
-import { FeedsNav, Videos } from "../components";
+import { FeedsNav } from "../components";
 import { fetchFromAPI } from "../utils/fetchFromAPI";
+import { Videos } from "../layout";
 
 const Feed = () => {
   const [feedTopic, setFeedTopic] = useState("All");
@@ -14,12 +15,12 @@ const Feed = () => {
   }, [feedTopic]);
 
   return (
-    <>
+    <div>
       <FeedsNav feedTopic={feedTopic} setFeedTopic={setFeedTopic} />
       <Box>
         <Videos videos={videos} />
       </Box>
-    </>
+    </div>
   );
 };
 

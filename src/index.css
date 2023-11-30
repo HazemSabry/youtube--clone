@@ -72,9 +72,6 @@ a {
   background-color: #272727;
 }
 
-.category-btn:hover span {
-}
-
 .sign-in-btn {
   color: #368dd7;
   width: 6.8rem;
@@ -106,6 +103,8 @@ a {
 }
 
 .feed-nav {
+  position: fixed;
+  height: -webkit-fit-content;
   height: fit-content;
   display: flex;
   gap: 0.6rem;
@@ -122,7 +121,9 @@ a {
 .feed-btn {
   color: #ffffff;
   background-color: #272727;
+  height: -webkit-fit-content;
   height: fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   white-space: nowrap;
   display: flex;
