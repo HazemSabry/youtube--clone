@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { Box, Stack } from "@mui/material";
 import { Sidebar, Navbar } from ".";
 import { Outlet } from "react-router-dom";
@@ -14,7 +13,7 @@ const Layout = () => {
       >
         <Box
           sx={{
-            height: { sx: "auto", md: "92vh" },
+            height: { sx: "auto", md: "90.5vh" },
             maxWidth: "18%",
           }}
         >
